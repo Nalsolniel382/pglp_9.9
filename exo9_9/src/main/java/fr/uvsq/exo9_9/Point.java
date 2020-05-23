@@ -25,7 +25,10 @@ public class Point {
 	public void setY(int y) {
 		this.y = y;
 	}
-	
+	public void deplace(final int x,final int y) {
+	       this.x=x;
+	       this.y=y;
+	    }
 	public String Aff() {
         return "(" + x + "," + y + ")";
     }
